@@ -11,12 +11,10 @@ import MapboxDirections
 
 class ThemeViewController: UIViewController, MGLMapViewDelegate, CLLocationManagerDelegate {
     
-    // Lines 14 is for the example only. Users will want to set the theme on line 38.
-    var viewControllerTheme : Theme?
-    
+
     // MARK: Customize these variables to style your map:
     // Use a MBXTheme from Themes.swift, or create a Color object that contains the necessary colors and use it to set the theme.
-    //      var viewControllerTheme : Theme? = MBXTheme.purpleTheme
+    var viewControllerTheme : Theme? = MBXTheme.neutralTheme
     
     var centerCoordinate = CLLocationCoordinate2D(latitude: 40.7478, longitude: -73.9898) // This will serve as the center coordinate if the user denies location permissions.
     var mapView: MGLMapView!
@@ -363,7 +361,7 @@ extension ThemeViewController: UIPageViewControllerDataSource, UIPageViewControl
                     nextFeature = features[index-1]
                 }
                 nextVC.view = CustomItemView(feature: nextFeature, themeColor: themeColor, iconImage: iconImage)
-                itemView = nextVC.view as! CustomItemView!
+                itemView = nextVC.view as! CustomItemView?
             }
             return nextVC
         }
@@ -388,7 +386,7 @@ extension ThemeViewController: UIPageViewControllerDataSource, UIPageViewControl
                 print(nextFeature)
                 selectedFeature = featuresWithRoute[getKeyForFeature(feature: nextFeature)]
                 nextVC.view = CustomItemView(feature: nextFeature, themeColor: themeColor, iconImage: iconImage)
-                itemView = nextVC.view as! CustomItemView!
+                itemView = nextVC.view as! CustomItemView?
             }
             return nextVC
             

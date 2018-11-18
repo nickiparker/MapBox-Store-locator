@@ -1,85 +1,175 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Location 1",
-        "hours": "6am - 5pm",
-        "phone": "(555) 555-4355",
-        "description": "Location #1 description"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.966889,
-          40.761926
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Location 2",
-        "hours": "9am - 4pm",
-        "phone": "(555) 555-9430",
-        "description": "Location #2 description"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.970048,
-          40.789752
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Location 3",
-        "hours": "10am - 8pm",
-        "phone": "(555) 555-4839",
-        "description": "Location #3 description"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.028076,
-          40.75122
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Location 4",
-        "hours": "8am - 5:30pm",
-        "phone": "(555) 555-1989",
-        "description": "Location #4 description"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.000808,
-          40.719723
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Location 5",
-        "hours": "9:30am - 6pm",
-        "phone": "(555) 555-4345",
-        "description": "Location #5 description"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984496,
-          40.696141
-        ]
-      }
-    }
-  ]
+    "features": [
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "18736 W Peterson Rd, Libertyville",
+                 "name": "Lake County Animal Care and Control",
+                 "hours": "M-F 9am-4:30pm, Sat 9am-12:30pm",
+                 "phone": "847-377-4700"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -87.998316,
+                                 42.306035
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "address.10164434706493830"
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "1103 W End Ave N, Chicago Heights",
+                 "name": "Animal Care League",
+                 "hours": "M-F 9am-5pm",
+                 "phone": "708-848-8155"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -87.79962,
+                                 41.872075
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "address.11842842831717040"
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "1375 N Roselle Rd, Schaumburg",
+                 "name": "Golf Rose Animal Hospital",
+                 "hours": "M-F 8am-7pm, Sat 9am-2pm",
+                 "phone": "847-885-3344"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -88.079033,
+                                 42.053136
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "address.14288456127471660"
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "1634 S Laramie Ave, Cicero",
+                 "name": "Waggin Tails",
+                 "hours": "M-F 1pm-6pm",
+                 "phone": "708-652-0825"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -87.755487,
+                                 41.85705
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "address.14994575158876850"
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "5127 Oakton St, Skokie",
+                 "name": "Skokie Animal Control",
+                 "hours": "not available",
+                 "phone": "847-933-8484"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -87.71049,
+                                 42.024031
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "address.15065751370530970"
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "10305 Southwest Hwy, Chicago Ridge",
+                 "name": "Animal Welfare League (AWL)",
+                 "hours": "M-Sat 9am-9pm, Sun 9am-6pm",
+                 "phone": "708-636-8586"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -87.787701,
+                                 41.703627
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "address.17674198339620830"
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "1103 W End Ave N, Chicago Heights",
+                 "name": "Paws Tinley Park",
+                 "hours": "M, W, F 7pm-9pm, T, Th, Sat, Sun 12pm-4pm",
+                 "phone": "815-464-7298"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -87.806946,
+                                 41.543834
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "address.5098323152873800"
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "1103 W End Ave N, Chicago Heights",
+                 "name": "South Suburban Humane Society",
+                 "hours": "M, W, F 1pm-7pm, Sat-Sun 12pm-5pm",
+                 "phone": "708-755-7387"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -87.631074,
+                                 41.511524
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "address.6529417923998300"
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "1634 S Laramie Ave, Cicero",
+                 "name": "DuPage County Animal Hospital",
+                 "hours": "M, Th 8am-7:30pm, T, W, F 8am-5pm, Sat 10am-3pm",
+                 "phone": "630-407-2800"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -88.143366,
+                                 41.866063
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "address.7211235368236180"
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "description": "1375 N Roselle Rd, Schaumburg",
+                 "name": "Evanston Animal Shelter & Animal Control",
+                 "hours": "M-F 8am-7pm, Sat 9am-2pm",
+                 "phone": "847-866-5082"
+                 },
+                 "geometry": {
+                 "coordinates": [
+                                 -87.6712,
+                                 42.0267
+                                 ],
+                 "type": "Point"
+                 },
+                 "id": "neighborhood.281624"
+                 }
+                 ],
+    "type": "FeatureCollection"
 }
