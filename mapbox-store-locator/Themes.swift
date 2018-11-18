@@ -32,8 +32,8 @@ class MBXTheme : NSObject {
                                  styleURL: MGLStyle.lightStyleURL,
                                  themeColor: ThemeColor.grayTheme,
                                  fileURL: Bundle.main.url(forResource: "stores", withExtension: "geojson")!)
-    static let neutralTheme = Theme(defaultMarker: UIImage(named: "blue_unselected_house")!,
-                                    selectedMarker: UIImage(named: "blue_selected_house")!,
+    static let neutralTheme = Theme(defaultMarker: UIImage(named: "blue_unselected_dog")!,
+                                    selectedMarker: UIImage(named: "blue_selected_dog")!,
                                     styleURL: MGLStyle.streetsStyleURL,
                                     themeColor: ThemeColor.neutralTheme,
                                     fileURL: Bundle.main.url(forResource: "stores", withExtension: "geojson")!)
@@ -69,7 +69,8 @@ class ThemeColor: NSObject {
                                   accentColor: UIColor(red:0.47, green:0.96, blue:0.27, alpha:1.0))
     
     static let neutralTheme = Color(primaryColor: UIColor(red:0.91, green:0.90, blue:0.88, alpha:1.0),
-                                    primaryDarkColor: UIColor(red:0.70, green:0.69, blue:0.67, alpha:1.0),
+                                    // The line below has been updated from grey to blue
+                                    primaryDarkColor: UIColor(red: 0.2706, green: 0.6667, blue: 0.9098, alpha: 1.0),
                                     navigationLineColor: UIColor(red:0.00, green:0.73, blue:1.00, alpha:1.0),
                                     lowerCardTextColor: UIColor.black,
                                     accentColor: UIColor.white)

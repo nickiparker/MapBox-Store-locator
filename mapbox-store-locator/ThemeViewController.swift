@@ -41,7 +41,7 @@ class ThemeViewController: UIViewController, MGLMapViewDelegate, CLLocationManag
         mapView = MGLMapView(frame: view.bounds, styleURL: viewControllerTheme?.styleURL) // Set the map's style url.
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.delegate = self
-        mapView.zoomLevel = 11
+        mapView.zoomLevel = 8
         
         //   mapView.setCenter(centerCoordinate, zoomLevel: 11, animated: false)      // MARK: To center on the user's location, comment this line out and uncomment the following line.
         
